@@ -1,0 +1,15 @@
+var health = {
+"type": "FeatureCollection",
+"name": "health",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ward": 5, "Tole": "Chaku bazar", "latitude": 27.8819939, "longitude": 85.9099457, "Institutio": "Health Institution", "Name": "Marming healthpost chaku", "Insti_nep": ":jf:Yo ;+:yf", "Nep_Name": "dfld{ª :jf:Yo rf}sL rfs'" }, "geometry": { "type": "Point", "coordinates": [ 85.9099457, 27.8819939 ] } },
+{ "type": "Feature", "properties": { "ward": 5, "Tole": "Saptak", "latitude": 27.874800857899999, "longitude": 85.914133794600005, "Institutio": "Health Institution", "Name": "Marming CHU", "Insti_nep": ":jf:Yo ;+:yf", "Nep_Name": "dfld{ª :jf:Yo s]Gb«" }, "geometry": { "type": "Point", "coordinates": [ 85.914133794610052, 27.874800857901242 ] } },
+{ "type": "Feature", "properties": { "ward": 2, "Tole": "Tatopani", "latitude": 27.9446803708, "longitude": 85.949262864299996, "Institutio": "Health Institution", "Name": "Tatopani Health Post", "Insti_nep": ":jf:Yo ;+:yf", "Nep_Name": "tftf]kfgL :jf:Yo rf}sL" }, "geometry": { "type": "Point", "coordinates": [ 85.949262864262579, 27.944680370768875 ] } },
+{ "type": "Feature", "properties": { "ward": 1, "Tole": "Listi", "latitude": 27.892772254600001, "longitude": 85.876022259099997, "Institutio": "Health Institution", "Name": "Listikot Health Post", "Insti_nep": ":jf:Yo ;+:yf", "Nep_Name": "lnlitsf]6 :jf:Yo rf}sL" }, "geometry": { "type": "Point", "coordinates": [ 85.876022259065053, 27.892772254552842 ] } },
+{ "type": "Feature", "properties": { "ward": 4, "Tole": "Hindi", "latitude": 27.9067539, "longitude": 85.9204424, "Institutio": "Health Institution", "Name": "Hindi Health Center", "Insti_nep": ":jf:Yo ;+:yf", "Nep_Name": "lxGbL :jf:Yo rf}sL" }, "geometry": { "type": "Point", "coordinates": [ 85.9204424, 27.9067539 ] } },
+{ "type": "Feature", "properties": { "ward": 3, "Tole": "Duguna", "latitude": 27.923998163099998, "longitude": 85.930459975600002, "Institutio": "Health Institution", "Name": "Bhotekoshi Basic Health Center", "Insti_nep": ":jf:Yo ;+:yf", "Nep_Name": "ef]6]sf]zL cfwf/e\"t :jf:Yo s]Gb«" }, "geometry": { "type": "Point", "coordinates": [ 85.930459975559586, 27.923998163119453 ] } },
+{ "type": "Feature", "properties": { "ward": 2, "Tole": "Lalbirchowk", "latitude": 27.960382596700001, "longitude": 85.951775660799996, "Institutio": "Health Institution", "Name": "Lalbir health Unit", "Insti_nep": ":jf:Yo ;+:yf", "Nep_Name": "nfnla/ :jf:Yo OsfO{" }, "geometry": { "type": "Point", "coordinates": [ 85.951775660816622, 27.960382596725072 ] } },
+{ "type": "Feature", "properties": { "ward": 4, "Tole": "Naranthan", "latitude": 27.8913007, "longitude": 85.9294014, "Institutio": "Health Institution", "Name": "Phulpingkati Health Post", "Insti_nep": ":jf:Yo ;+:yf", "Nep_Name": "km'lNkªs§L :jf:Yo rf}sL" }, "geometry": { "type": "Point", "coordinates": [ 85.9294014, 27.8913007 ] } }
+]
+}
