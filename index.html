@@ -194,7 +194,7 @@
     });
 
 
-    var catii_icon = L.icon({
+    var catii = L.icon({
         iconUrl: 'data/catii.svg',
         iconSize: [20, 20],
         iconAnchor: [0, 0],
@@ -261,6 +261,7 @@ var catII = L.geoJSON(Bhotekoshi_cat_II, {
         }
     });
 map.addLayer(catII);
+
 //Education Institutions
 var Education = L.geoJSON(education, {
         pointToLayer: function (feature, latlng) {
@@ -322,6 +323,7 @@ var Evacuationassembly_Point = L.geoJSON(Bhotekoshi_Evacuation_Points, {
         }
     });
 map.addLayer(Evacuationassembly_Point);
+
 
 //evacuation_assembly_point
 
@@ -447,8 +449,14 @@ map.addLayer(Evacuationassembly_center);
             label: "Evacuation Assembly Point",
             type: "image",
             url: "data/evacuation_assembly.svg"
-        }
-    
+        }, {
+            label: "Risk Zones",
+            type: "polygon",
+            color: "blue",
+            fillColor: "#0000FF",
+            FillOpacity: 0.5,
+            layers: Risk_zone
+        }, 
     
     
     ]
